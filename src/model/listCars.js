@@ -123,7 +123,6 @@ listCars =
           model : "jante model A",
           image : "https://www.quellejante.com/assets/img/jante_threeface_guide.png"
         }
-
       }
     }
   ];
