@@ -52,6 +52,7 @@
         </li>
         <li>Pas besoin de sauvegarder les modifications à la liste de voiture. Apres une suppression ou une copie si l'utilisateur rafraichi la page
           les modifications peuvent disparaitre.</li>
+        <li>Tu peux ajouter des données d'exemples dans listCars.js si tu le souhaites.</li>
       </ul>
     </b-alert>
   </div>
