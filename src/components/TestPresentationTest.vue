@@ -1,14 +1,15 @@
 <template>
   <div>
-  <b-alert show>
-    <h3>Tâches à réaliser</h3>
-    <ul>
-      <li>Dans la page "TablePage" afficher un tableau pour présenter les différentes voitures</li>
-      <li>Les objects voitures sont présents dans model->listCars.js</li>
-      <li>Créer une toute nouvelle page avec un formulaire pour ajouter une voiture (seulement nom modèle, description et tags)</li>
-      <li>La fin du formulaire redirige vers une page qui affiche les informations qui viennent d'être saisies par l'utilisateur</li>
-    </ul>
-  </b-alert>
+    <b-alert show>
+      <h3>Tâches à réaliser</h3>
+      <ul>
+        <li>Crée une nouvelle page pour afficher les pièces de voitures. En suivant la maquette (voir photo src/assets/maquette.png). Les pièces
+          sont accéssibles dans src/model/listCars.js, dans l'object "technique".</li>
+        <li>Dans la page src/pages/TablePage implémente un tableau pour présenter les différentes voitures (nom, couleur, marques, tags, photo)</li>
+        <li>Créer une nouvelle page avec un formulaire pour ajouter une voiture (seulement nom modèle, description et tags)</li>
+        <li>La fin du formulaire redirige vers une page qui affiche les informations qui viennent d'être saisies par l'utilisateur</li>
+      </ul>
+    </b-alert>
 
     <b-alert show variant="warning">
       <h3>Détails pour la page "TablePage"</h3>
@@ -22,6 +23,16 @@
       </ul>
     </b-alert>
 
+    <b-alert show variant="dark">
+      <h3>Détails pour la page "les pièces" </h3>
+      <ul>
+        <li>Le but est de voir comment tu arrives a reproduire un design donné.</li>
+        <li>Lors d'un clic sur les boutons "Voir les détails" il faut ouvrir une fenètre flottante et afficher les informations sur la pièce.
+          (marques, model , voitures équipées , fournisseurs). Ici pas besoin de faire de mise en page affiche seulement les informations de
+          manières lisibles.</li>
+      </ul>
+    </b-alert>
+
     <b-alert show variant="secondary">
       <h3>Détails pour la page formulaire</h3>
       <ul>
@@ -32,14 +43,17 @@
       </ul>
     </b-alert>
 
-  <b-alert variant="success" show>
-    <h3>Infos complémentaires</h3>
-    <ul>
-      <li>Nous prétons attention à la mise en page et au style seulement sur page "TablePage".</li>
-      <li>Pas besoin de sauvegarder les modifications à la liste de voiture. Apres une suppression ou une copie si l'utilisateur rafraichi la page
-        les modifications peuvent disparaitre.</li>
-    </ul>
-  </b-alert>
+    <b-alert variant="success" show>
+      <h3>Infos complémentaires</h3>
+      <ul>
+        <li>Les objects voitures sont présents dans model->listCars.js</li>
+        <li>Pour la page de formulaire et resultat de formulaire ne t'attarde pas sur le style et la mise en page. On veut juste voir si ca
+          fonctionne et suivre la progression de l'utilisateur dans le formulaire.
+        </li>
+        <li>Pas besoin de sauvegarder les modifications à la liste de voiture. Apres une suppression ou une copie si l'utilisateur rafraichi la page
+          les modifications peuvent disparaitre.</li>
+      </ul>
+    </b-alert>
   </div>
 </template>
 
