@@ -40,7 +40,7 @@
         <li>Les différentes étapes sont les suivantes : Nom de la voiture , description de la voiture , tags attribués à la voiture</li>
         <li>Il faut développer une vérification de formulaire seulement pour la première étape. Quelque chose de très simple juste s'assurer que
           le champ "nom de la voiture" n'est pas vide.</li>
-        <li>Pour cette partie ne t'attarde pas sur le style et la mise en page. On veut juste voir si ca
+        <li>Pour cette partie ne t'attarde pas sur le style et la mise en page. On veut juste voir si ça
           fonctionne et suivre la progression de l'utilisateur dans le formulaire.
         </li>
         <li>La page apres le formulaire idem fais quelque chose de lisible avec les informations du formulaire pas besoin de style.</li>
@@ -51,7 +51,7 @@
       <h3>Infos complémentaires</h3>
       <ul>
         <li>Les objects voitures sont présents dans model->listCars.js</li>
-        <li>Pas besoin de sauvegarder les modifications à la liste de voiture. Apres une suppression ou une copie si l'utilisateur rafraichi la page
+        <li>Pas besoin de sauvegarder les modifications à la liste de voitures. Apres une suppression ou une copie si l'utilisateur rafraichi la page
           les modifications peuvent disparaitre.</li>
         <li>Tu peux ajouter des données d'exemples dans listCars.js si tu le souhaites.</li>
       </ul>
