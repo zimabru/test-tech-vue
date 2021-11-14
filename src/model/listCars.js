@@ -126,3 +126,5 @@ listCars =
       }
     }
   ];
+
+  module.exports =listCars;

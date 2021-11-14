@@ -1,4 +1,5 @@
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import './assets/reset.css';
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
